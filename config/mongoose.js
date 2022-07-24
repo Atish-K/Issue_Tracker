@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 // const uri = "mongodb+srv://atish:Atish@123@cluster0.qvbjs.mongodb.net/issue_tracker_db?retryWrites=true&w=majority";
 // mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true },
 //     () => console.log(" Mongoose is connected"));
+let MONGODB_URL="mongodb+srv://abc:aaRm2zNufs6vm1hz@abc.tnleh.mongodb.net/abc?retryWrites=true&w=majority";
 
 mongoose.connect(
     process.env.MONGODB_URL,
