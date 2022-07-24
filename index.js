@@ -1,10 +1,9 @@
-require('dotenv').config();
-
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const port = 8000;
 const app = express();
+require('dotenv').config();
 
 
 app.set('view engine', 'ejs');
