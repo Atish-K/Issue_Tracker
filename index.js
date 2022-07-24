@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const port = 8000;
+// const port = 8000;
+let port = process.env.PORT || 8080;
 const app = express();
 require('dotenv').config();
 
