@@ -9,8 +9,7 @@ const mongoose = require('mongoose');
 //     () => console.log(" Mongoose is connected"));
 let MONGODB_URL="mongodb+srv://abc:aaRm2zNufs6vm1hz@abc.tnleh.mongodb.net/abc?retryWrites=true&w=majority";
 
-mongoose.connect(
-    process.env.MONGODB_URL,
+mongoose.connect(MONGODB_URL,
     {
       useNewUrlParser: true,
     //   useFindAndModify: false,
